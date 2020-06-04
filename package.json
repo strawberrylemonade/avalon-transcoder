@@ -1,0 +1,31 @@
+{
+  "name": "avalon-transcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/dist/index.js",
+  "scripts": {
+    "develop": "npx tsc && npx nodemon ./dist & npx tsc --preserveWatchOutput -w",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/fluent-ffmpeg": "^2.1.14",
+    "@types/fs-extra": "^9.0.1",
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/tmp": "^0.2.0",
+    "azure-storage": "^2.10.3",
+    "dotenv": "^8.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^9.0.0",
+    "got": "^11.1.4",
+    "lodash.debounce": "^4.0.8",
+    "tmp": "^0.2.1"
+  }
+}
